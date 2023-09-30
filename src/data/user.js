@@ -78,6 +78,13 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Gobinath-B/vaccine-remainder",
 		},
+		{
+			title: "HackBook-v2.0",
+			description:"An Application for Tamilnadu police cyber cell Department according to their problem Statement.It's an updraded version on Hackbook v1.0 and it has additional features of facial comparision of suspects with existing criminal database and dashboard to maintain the criminal database",
+			logo:"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link:"https://github.com/iwint/HackBook-V2.0"
+		}
 	],
 };
 
