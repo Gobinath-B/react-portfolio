@@ -13,18 +13,7 @@ const Works = () => {
 				title="Internships"
 				body={
 					<div className="works-body">
-						<div className="work">
-							<img
-								src="./ecylabs.jpg"
-								alt="Ecylabs"
-								className="work-image"
-							/>
-							<div className="work-title">Ecylabs</div>
-							<div className="work-subtitle">
-								Security Analyst Intern
-							</div>
-							<div className="work-duration">2021 - 2022</div>
-						</div>
+						
 
 						<div className="work">
 							<img
@@ -38,6 +27,20 @@ const Works = () => {
 							</div>
 							<div className="work-duration">2022 - Present</div>
 						</div>
+						<div className="work">
+							<img
+								src="./ecylabs.jpg"
+								alt="Ecylabs"
+								className="work-image"
+							/>
+							<div className="work-title">Ecylabs</div>
+							<div className="work-subtitle">
+								Security Analyst Intern
+							</div>
+							<div className="work-duration">2021 - 2022</div>
+						</div>
+
+
 					</div>
 				}
 			/>
