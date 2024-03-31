@@ -16,7 +16,7 @@ const Works = () => {
 						
                         <div className="work">
 							<img
-								src="./trslogo.png"
+								src="./ms.png"
 								alt="TRS"
 								className="work-image"
 							/>
