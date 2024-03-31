@@ -14,7 +14,18 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						
-
+                        <div className="work">
+							<img
+								src="./trslogo.png"
+								alt="TRS"
+								className="work-image"
+							/>
+							<div className="work-title">Microsoft DevHome</div>
+							<div className="work-subtitle">
+								Open Source Contributor
+							</div>
+							<div className="work-duration">Part Time</div>
+						</div>
 						<div className="work">
 							<img
 								src="./trslogo.png"
