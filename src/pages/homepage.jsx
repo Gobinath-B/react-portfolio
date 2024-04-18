@@ -175,25 +175,26 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<button
-    onClick={() => { window.location.href = '../../public'; }}
-    style={{
-        padding: '10px 20px',
-        backgroundColor: '#27272A',
-        color: '#fff',
-        border: 'none',
-        borderRadius: '5px',
-        cursor: 'pointer',
-        textDecoration: 'none',
-        display: 'inline-block',
-        fontSize: '16px',
-        fontWeight: 'bold',
-        boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.2)',
-        transition: 'background-color 0.3s ease',
-    }}
->
-    Download CV
-</button>
+							<a
+								href="./resume.pdf"
+								download="resume.pdf"
+								style={{
+									padding: '10px 20px',
+									backgroundColor: '#27272A',
+									color: '#fff',
+									border: 'none',
+									borderRadius: '5px',
+									cursor: 'pointer',
+									textDecoration: 'none',
+									display: 'inline-block',
+									fontSize: '16px',
+									fontWeight: 'bold',
+									boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.2)',
+									transition: 'background-color 0.3s ease',
+								}}
+							>
+								Download CV
+							</a>
 
 						</div>
 
